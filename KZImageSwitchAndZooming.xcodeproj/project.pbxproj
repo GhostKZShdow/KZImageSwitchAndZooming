@@ -14,6 +14,11 @@
 		4F6F484C1D06973200F54954 /* KZImageSwitchAndZooming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F484A1D06973200F54954 /* KZImageSwitchAndZooming.xcdatamodeld */; };
 		4F6F484E1D06973200F54954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F484D1D06973200F54954 /* Assets.xcassets */; };
 		4F6F48511D06973200F54954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F484F1D06973200F54954 /* LaunchScreen.storyboard */; };
+		4F6F485C1D06975900F54954 /* KZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F48591D06975900F54954 /* KZView.m */; };
+		4F6F485D1D06975900F54954 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F485B1D06975900F54954 /* NewView.m */; };
+		4F6F48611D0697E700F54954 /* secPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F485E1D0697E700F54954 /* secPage.PNG */; };
+		4F6F48621D0697E700F54954 /* thiPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F485F1D0697E700F54954 /* thiPage.PNG */; };
+		4F6F48631D0697E700F54954 /* firPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F48601D0697E700F54954 /* firPage.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,13 @@
 		4F6F484D1D06973200F54954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6F48501D06973200F54954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F6F48521D06973200F54954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6F48581D06975900F54954 /* KZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZView.h; sourceTree = "<group>"; };
+		4F6F48591D06975900F54954 /* KZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZView.m; sourceTree = "<group>"; };
+		4F6F485A1D06975900F54954 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
+		4F6F485B1D06975900F54954 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
+		4F6F485E1D0697E700F54954 /* secPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secPage.PNG; sourceTree = "<group>"; };
+		4F6F485F1D0697E700F54954 /* thiPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thiPage.PNG; sourceTree = "<group>"; };
+		4F6F48601D0697E700F54954 /* firPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firPage.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,9 @@
 			children = (
 				4F6F483D1D06973200F54954 /* KZImageSwitchAndZooming */,
 				4F6F483C1D06973200F54954 /* Products */,
+				4F6F485E1D0697E700F54954 /* secPage.PNG */,
+				4F6F485F1D0697E700F54954 /* thiPage.PNG */,
+				4F6F48601D0697E700F54954 /* firPage.PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,10 @@
 				4F6F48421D06973200F54954 /* AppDelegate.m */,
 				4F6F48441D06973200F54954 /* ViewController.h */,
 				4F6F48451D06973200F54954 /* ViewController.m */,
+				4F6F485A1D06975900F54954 /* NewView.h */,
+				4F6F485B1D06975900F54954 /* NewView.m */,
+				4F6F48581D06975900F54954 /* KZView.h */,
+				4F6F48591D06975900F54954 /* KZView.m */,
 				4F6F48471D06973200F54954 /* Main.storyboard */,
 				4F6F484D1D06973200F54954 /* Assets.xcassets */,
 				4F6F484F1D06973200F54954 /* LaunchScreen.storyboard */,
@@ -141,6 +160,9 @@
 			files = (
 				4F6F48511D06973200F54954 /* LaunchScreen.storyboard in Resources */,
 				4F6F484E1D06973200F54954 /* Assets.xcassets in Resources */,
+				4F6F48611D0697E700F54954 /* secPage.PNG in Resources */,
+				4F6F48621D0697E700F54954 /* thiPage.PNG in Resources */,
+				4F6F48631D0697E700F54954 /* firPage.PNG in Resources */,
 				4F6F48491D06973200F54954 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6F484C1D06973200F54954 /* KZImageSwitchAndZooming.xcdatamodeld in Sources */,
+				4F6F485D1D06975900F54954 /* NewView.m in Sources */,
 				4F6F48461D06973200F54954 /* ViewController.m in Sources */,
 				4F6F48431D06973200F54954 /* AppDelegate.m in Sources */,
 				4F6F48401D06973200F54954 /* main.m in Sources */,
+				4F6F485C1D06975900F54954 /* KZView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

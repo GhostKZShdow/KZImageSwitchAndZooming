@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NewView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NewView *newView = [[NewView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [self.view addSubview:newView];
 }
 
 - (void)didReceiveMemoryWarning {
